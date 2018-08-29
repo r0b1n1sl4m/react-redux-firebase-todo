@@ -1,0 +1,22 @@
+/* Semantic UI */
+.ui {
+  &.header {
+    &.pageTitle {
+      text-align: center;
+    }
+  }
+
+  &.message {
+    .icon {
+      &.close {
+        position: initial;
+        order: 3;
+        margin-left: 15px;
+      }
+
+      &:not(.close) {
+        font-size: 26px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/* Login Page */
+#loginPage {
+  padding-top: 40px;
+}
+#loginForm {
+  .loginFormPasswordField {
+    margin-bottom: 0;
+  }
+  .forgotModalTrigger {
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: $link_color;
+  }
+}

@@ -1,0 +1,44 @@
+/* TodoLists Page */
+#todoListsWrapper {
+  .todoListMenu {
+    margin: 0;
+    justify-content: flex-end;
+
+    .item {
+      font-weight: 300;
+    }
+  }
+}
+#todoForm {
+  input {
+    font-weight: 300;
+  }
+}
+#todoLists {
+  margin-top: 0;
+}
+#todoLists {
+  > .todo {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    &:first-child {
+      border-top: 0;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+
+      .buttons {
+        order: 3;
+        margin-left: 15px;
+      }
+
+      .header {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-weight: 300;
+      }
+    }
+  }
+}
